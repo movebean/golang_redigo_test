@@ -1,0 +1,16 @@
+message Record
+{
+				optional int32 userid = 1;
+				optional int32 timestamp = 2;
+				optional string cmd = 3;
+				optional uint32 ip = 4;
+				optional int32 version = 5;
+				optional string platform = 6;
+				optional string devicesign = 7;
+				optional string provider = 8;
+				optional string account = 9;
+				optional string action = 10;
+				optional string metatag = 11;
+				optional uint32 sid = 12;
+				optional uint32 cs = 13;
+}
